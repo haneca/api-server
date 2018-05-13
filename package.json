@@ -1,12 +1,17 @@
 {
   "name": "api-server",
   "version": "0.1.0",
+  "author": "HANECA <hane.ca.info@gmail.com>",
+  "license": "MIT",
+  "repository": "haneca/api-server",
+  "homepage": "https://www.haneca.net/",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
